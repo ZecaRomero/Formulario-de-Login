@@ -63,3 +63,7 @@ section#login > div#formulario{
     padding: 10px;
 
 }
+
+div#formulario > p {
+    font-size: 1.9em;
+}
