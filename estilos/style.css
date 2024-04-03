@@ -29,11 +29,12 @@ main {
 }
 
 section#login {
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden; /*tudo que tiver fora da bordar fica redondo*/
+    overflow: hidden; /*tudo que tiver fora da borda fica redondo*/
 
     background-color: white;
     width: 250px;
