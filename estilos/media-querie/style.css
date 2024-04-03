@@ -2,7 +2,24 @@
 
 
 
-@media (min-width: 620px) and (max-width: 1500px){
+@media (min-width: 620px) and (max-width: 1900px){
+
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+
+        float: left;
+        width: 30%;
+        height: 100%;
+
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
 
 }
 
