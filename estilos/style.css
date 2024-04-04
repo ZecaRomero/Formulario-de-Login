@@ -17,7 +17,8 @@ LILAS:
 }
 
 body, html {
-    background-color: rgba(39, 32, 39, 0.662);    
+    background-color: rgba(39, 32, 39, 0.662);   
+    background-image: linear-gradient(to top, rgba(212, 43, 80, 0.341), rgba(0, 0, 255, 0.758)); 
     height: 100vh;
     width: 100vw;
 }
@@ -74,15 +75,38 @@ div#formulario > p {
 
 form > div.campo{
     background-color: blueviolet;
+    border: 1.8px solid blueviolet ;
     display: block;
     height: 40px;
-    width: 100%;
-    border-radius: 5px;
+    width: 103%;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > i {
+    color: white;    
+    font-size: 2em;
+    width: 40px;
+    padding: 4px;
+}
+
+div.campo > input {
+    background-color: #94cfcd;
+    font: 1em;
+    width: calc(100% - 48px);
+    transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
